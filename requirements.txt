@@ -4,3 +4,13 @@ python-dotenv
 langchain_community
 streamlit
 langchain_core
+pymupdf
+wikipedia
+langchain_text_splitters
+chromadb
+langchain_huggingface
+langchain_chroma
+duckdb
+pandas
+openai
+langchain_groq
