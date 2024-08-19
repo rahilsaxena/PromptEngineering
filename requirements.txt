@@ -14,3 +14,7 @@ duckdb
 pandas
 openai
 langchain_groq
+validators==0.28.1
+youtube_transript_api
+unstructured
+pytube
