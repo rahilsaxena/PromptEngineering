@@ -74,4 +74,3 @@ if st.button("Summarize the content from YT or WebSite"):
 
         except Exception as e:
             st.exception(f"Exception:{e}")
-
