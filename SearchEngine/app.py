@@ -8,6 +8,14 @@ import os
 from dotenv import load_dotenv
 
 
+load_dotenv()
+
+#LangSmith Tracking 
+os.environ['LANGCHAIN_API_KEY']=os.getenv("LANGCHAIN_API_KEY")
+os.environ['LANGCHAIN_TRACING_V2']="true"
+os.environ['LANGCHAIN_Project']="ChatBot With Search Engine"
+
+
 ## Arvix & wikipedia tools
 arvix_wrapper=ArxivAPIWrapper(top_k_resuilts=1,doc_content_chars_max=200)
 arvix=ArxivQueryRun(api_wrapper=arvix_wrapper)
