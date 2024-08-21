@@ -13,7 +13,7 @@ load_dotenv()
 
 os.environ['LANGCHAIN_API_KEY']=os.getenv("LANGCHAIN_API_KEY")
 os.environ['LANGCHAIN_TRACING_V2']="true"
-os.environ['LANGCHAIN_Project']="Text Summerization Using Groq"
+os.environ['LANGCHAIN_Project']="Text Summerization Using HuggingFace-Langchain Models"
 
 ### StreamLit App
 st.set_page_config(page_title="Langchain Integration with Hugging Face:Summarize Text from YT or website")
