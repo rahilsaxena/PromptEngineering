@@ -18,3 +18,4 @@ validators==0.28.1
 youtube_transript_api
 unstructured
 pytube
+numexpr
