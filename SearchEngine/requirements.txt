@@ -19,5 +19,3 @@ youtube_transript_api
 unstructured
 pytube
 numexpr
-huggingface_hub
-langhcain_nvidia_ai_endpoints
